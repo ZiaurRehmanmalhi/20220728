@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head><title>All Calculation</title></head>
+<body style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('z5.jpg');">
+    <header>
+    
+
+    <h1 style="color: rgb(3, 19, 233); font-size: 50px;">Zakat Calculation</h1>
+Name : <input type="name" id="a" value="zia">
+<br>
+<br>
+Amount : <input type="number" id="b" value="786" placeholder="Total Amaount"> <br> <br>
+
+
+<button style="font-size: 20px; color: aqua; background-color: black;" onclick="
+let name1 = document.getElementById('a').value;
+
+document.getElementById('heading1').innerText = 'My name is ' +name1;
+">name</button>
+
+
+
+<button style="font-size: 20px; color: blanchedalmond; background-color: black;" onclick="
+let amount = document.getElementById('b').value;
+let zakatAmount = amount /40;
+document.getElementById('heading2').innerText = 'My zakat is ' +zakatAmount;
+
+">Calculate Zakat</button>
+'
+'
+<h1 id="heading1" style="color: red;">My Name</h1>
+<h1 id="heading2" style="color: rgb(3, 19, 233);">My Zaqat</h1>
+
+<hr><hr>
+
+
+
+<h1 style="color: rgb(3, 19, 233); font-size: 50px;">Meras Calculation</h1>
+
+Total Amount : <input type="number" id="m1">   <br><br>           
+
+
+
+
+<button style="color: rgb(30, 255, 0); background-color: blueviolet; font-size: 20px;" onclick="
+let meras = document.getElementById('m1').value;
+let wifeSheare = meras / 8;
+let sonSheare = meras -wifeSheare
+document.getElementById('hed1').innerText ='Total meras is ' +meras +' Wife sheare is ' +wifeSheare +' and the son sheare is ' +sonSheare;
+"
+
+>Meras Calculate</button>
+
+
+<h1 id="hed1" style="color: rgb(238, 16, 16);"
+>Meras</h1>
+ 
+
+<hr><hr>
+
+<h1 style="color: rgb(3, 19, 233); font-size: 50px;">prayer Calculation</h1>
+
+Total Age : <input  id="pc" type="number" placeholder="Age in years"> <br> <br>
+
+<button style="color: red; background-color: rgb(16, 236, 218);" onclick="
+let year = document.getElementById('pc').value;
+let prayer = (year - 12 )*365*5
+document.getElementById('hed2').innerText = 'My age is ' +year +' old' +' and my qaza salah is '  +prayer;
+"
+
+>Prayer Caluclate</button>
+
+<h1 id="hed2" style="color: rgb(238, 16, 16);"
+>Qaza Salah</h1>
+
+</header>
+
+</body
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
